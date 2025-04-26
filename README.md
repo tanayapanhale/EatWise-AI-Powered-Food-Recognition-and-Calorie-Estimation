@@ -1,4 +1,4 @@
-# EatWise �🍽️ - AI-Powered Food Recognition & Calorie Prediction
+# EatWise 🍽️ - AI-Powered Food Recognition & Calorie Prediction
 
 **Welcome to EatWise** – Your intelligent food companion that combines deep learning and nutrition science to help you make healthier eating choices effortlessly!
 
