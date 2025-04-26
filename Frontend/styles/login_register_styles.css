@@ -1,0 +1,107 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.474), rgba(0, 0, 0, 0.321)), url(../assets/contactimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 5px 20px 20px 20px;
+    box-sizing: border-box;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+/* Navbar ..................................................*/
+nav {
+    display: flex;
+    padding: 9px;
+    padding-top: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+/* Navbar ends ................................................. */
+
+.formtab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #202920d8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.658);
+    width: 300px;
+    text-align: center;
+    margin: 85px 575px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    color:#e3e1e1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    color:#e3e1e1;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(207, 223, 223, 0.795);
+    box-sizing: border-box;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight:500;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+p {
+    color:#e3e1e1;
+    margin-top: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

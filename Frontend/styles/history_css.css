@@ -1,0 +1,220 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.474), rgba(0, 0, 0, 0.321)), url(../assets/contactimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    box-sizing: border-box;
+    height: 200vh;
+}
+
+nav {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    padding: 8px 50px 8px;
+    backdrop-filter: blur(12px);
+    max-width: 100vw;
+    height: 57.6px;
+    z-index: 1;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link ul li {
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.nav-link ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-link ul li a:hover {
+    color: #ff9ec3;
+}
+
+/* Dropdown Container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Dropdown Links */
+.dropdown-content a {
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+svg {
+    margin-bottom: 7px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.logout {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 0px;
+    font-size: 22px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.logout:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Container CSS ................................................................ */
+.container {
+    width: 90%;
+    margin: 50px auto;
+    overflow-x: auto; /* Enables horizontal scrolling on smaller screens */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.214);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: rgba(255, 255, 255, 0.386);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+th {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Responsive Table for the responsive*/
+@media (max-width: 768px) {
+    th, td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 8px 20px;
+    }
+    .nav-link {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .nav-link ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+.date-selection {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-selection label {
+    color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.date-selection input,
+.date-selection button {
+    min-width: 150px;
+    margin-right: 10px;
+    color:white;
+    background-color: #33333387;
+}
+
+#showHistory {
+    background-color: #0d6efd;
+}
+
+#showHistory:hover {
+    background-color: #0a58ca;
+}
